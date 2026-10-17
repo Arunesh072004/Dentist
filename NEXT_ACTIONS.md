@@ -26,7 +26,11 @@ All required local development and responsive UI stabilization tasks have been f
   - `website/facial-aesthetics/index.html` (Facial Aesthetics / Medi-Spa with provisional banner)
 - [x] **Update Master Treatment Directory:** Updated `website/services/index.html` with cards linking to the 3 newly added clinical domains.
 - [x] **Browser Acceptance & Multi-Viewport Verification:** Tested all 21 public routes on Desktop (1440px), Tablet (768px), and Mobile (390px). Confirmed zero horizontal overflow, working accordions, and sandboxed preview forms.
-- [x] **Deliverable Documentation:** Authored all 11 core audit and register documents in the repository root.
+- [x] **Direct Service Discovery & On-Site Search Engine:** Built lightweight client-side search engine in `main.js` and `components.css`; embedded on homepage and services directory with controlled synonym mapping (e.g. debonding $\rightarrow$ `/orthodontics/braces/#debonding`).
+- [x] **Tooth Debonding Section Architecture:** Enriched Step 4 of `/orthodontics/braces/` with dedicated clinical debonding, resin removal, and retention protocol with `#debonding` anchor.
+- [x] **Canonical URLs & Google Discovery Architecture:** Injected canonical tags across all 21 public routes, authored `sitemap.xml` and `robots.txt`.
+- [x] **Service Discovery Registers:** Produced `SERVICE_DISCOVERY_AND_URL_MAP.csv`, `SERVICE_SEARCH_IMPLEMENTATION_REPORT.md`, and `SERVICE_URL_AND_INDEXABILITY_AUDIT.md`.
+- [x] **Deliverable Documentation:** Authored core audit and register documents in the repository root.
 
 ---
 
