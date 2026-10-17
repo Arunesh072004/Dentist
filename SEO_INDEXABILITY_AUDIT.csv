@@ -1,0 +1,22 @@
+Route,Canonical URL,Title Tag,Meta Description Length,H1 Count,In Sitemap.xml,Robots.txt Directive,Indexability Status,Structured Data Status
+/,https://delhidentalcenter.com/,Delhi Dental Center | Premium Dental Care,180 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/about/,https://delhidentalcenter.com/about/,About Our Practice | Delhi Dental Center,148 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/contact/,https://delhidentalcenter.com/contact/,Contact & Clinic Location | Delhi Dental Center,149 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/cosmetic-dentistry/teeth-whitening/,https://delhidentalcenter.com/cosmetic-dentistry/teeth-whitening/,Professional Teeth Whitening | Delhi Dental Center,153 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/cosmetic-dentistry/zirconia-crowns/,https://delhidentalcenter.com/cosmetic-dentistry/zirconia-crowns/,Zirconia Ceramic Crowns | Delhi Dental Center,158 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/dental-implants/,https://delhidentalcenter.com/dental-implants/,Dental Implants & Full-Arch Rehabilitation | Delhi Dental Center,151 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/dental-implants/all-on-4-dental-implants/,https://delhidentalcenter.com/dental-implants/all-on-4-dental-implants/,All-on-4 Dental Implants | Delhi Dental Center,172 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/dental-implants/all-on-6-dental-implants/,https://delhidentalcenter.com/dental-implants/all-on-6-dental-implants/,All-on-6 Dental Implants | Delhi Dental Center,147 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/dental-implants/all-on-8-dental-implants/,https://delhidentalcenter.com/dental-implants/all-on-8-dental-implants/,All-on-8 Dental Implants | Delhi Dental Center,152 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/dental-implants/bone-grafting/,https://delhidentalcenter.com/dental-implants/bone-grafting/,Bone Grafting & Sinus Augmentation | Delhi Dental Center,165 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/dental-implants/full-mouth-dental-implants/,https://delhidentalcenter.com/dental-implants/full-mouth-dental-implants/,Full-Mouth Dental Implants | Delhi Dental Center,156 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/dental-implants/zygomatic-dental-implants/,https://delhidentalcenter.com/dental-implants/zygomatic-dental-implants/,Zygomatic Dental Implants | Delhi Dental Center,174 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/facial-aesthetics/,https://delhidentalcenter.com/facial-aesthetics/,Facial Aesthetics & Skin Services | Delhi Dental Center,158 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/international-patients/,https://delhidentalcenter.com/international-patients/,International Patients & Dental Travel | Delhi Dental Center,162 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/orthodontics/,https://delhidentalcenter.com/orthodontics/,Orthodontics & Bite Realignment | Delhi Dental Center,140 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/orthodontics/braces/,https://delhidentalcenter.com/orthodontics/braces/,Orthodontic Braces & Arch Alignment | Delhi Dental Center,148 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/patient-cases/,https://delhidentalcenter.com/patient-cases/,Clinical Cases & Patient Results | Delhi Dental Center,152 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/periodontal-treatment/,https://delhidentalcenter.com/periodontal-treatment/,Periodontal Therapy & Gum Care | Delhi Dental Center,146 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/resources/,https://delhidentalcenter.com/resources/,Clinical Resources & Patient Guides | Delhi Dental Center,142 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/root-canal-treatment/,https://delhidentalcenter.com/root-canal-treatment/,Root Canal Treatment (Endodontics) | Delhi Dental Center,145 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup
+/services/,https://delhidentalcenter.com/services/,Clinical Treatments & Dental Services | Delhi Dental Center,163 chars,1,YES,Allow: /,INDEXABLE,Verified clinical markup

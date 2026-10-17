@@ -1,0 +1,27 @@
+Query Tested,Result Count,Top Matched Title,Category,Target URL,Match Explanation / Score,Status,Notes
+debonding,1,Tooth Debonding & Bracket Removal,Orthodontics,/orthodontics/braces/#debonding,"Related to ""debonding teeth"" (Score: 90)",PASS,Direct match / navigable
+tooth debonding,1,Tooth Debonding & Bracket Removal,Orthodontics,/orthodontics/braces/#debonding,"Matches ""tooth debonding"" (Score: 90)",PASS,Direct match / navigable
+bracket removal,1,Tooth Debonding & Bracket Removal,Orthodontics,/orthodontics/braces/#debonding,"Matches ""bracket removal"" (Score: 90)",PASS,Direct match / navigable
+braces removal,2,Tooth Debonding & Bracket Removal,Orthodontics,/orthodontics/braces/#debonding,"Matches ""braces removal"" (Score: 90)",PASS,Direct match / navigable
+braces,2,Orthodontic Braces,Orthodontics,/orthodontics/braces/,"Related to ""adult braces"" (Score: 90)",PASS,Direct match / navigable
+root canal,1,Root Canal Treatment (RCT),Endodontics,/root-canal-treatment/,"Related to ""root canal treatment"" (Score: 90)",PASS,Direct match / navigable
+RCT,1,Root Canal Treatment (RCT),Endodontics,/root-canal-treatment/,"Matches ""rct"" (Score: 90)",PASS,Direct match / navigable
+gum disease,1,Periodontal Therapy & Gum Care,Periodontics,/periodontal-treatment/,"Matches ""gum disease"" (Score: 90)",PASS,Direct match / navigable
+periodontal treatment,1,Periodontal Therapy & Gum Care,Periodontics,/periodontal-treatment/,"Related to ""periodontal"" (Score: 50)",PASS,Direct match / navigable
+teeth whitening,1,In-Clinic Teeth Whitening,Cosmetic,/cosmetic-dentistry/teeth-whitening/,"Matches ""teeth whitening"" (Score: 90)",PASS,Direct match / navigable
+zirconia crown,1,Zirconia Ceramic Crowns,Restorative,/cosmetic-dentistry/zirconia-crowns/,"Matches ""zirconia crown"" (Score: 90)",PASS,Direct match / navigable
+all on 4,1,All-on-4 Dental Implants,Implantology,/dental-implants/all-on-4-dental-implants/,"Matches ""all-on-4"" (Score: 90)",PASS,Direct match / navigable
+all-on-4,1,All-on-4 Dental Implants,Implantology,/dental-implants/all-on-4-dental-implants/,"Matches ""all-on-4"" (Score: 90)",PASS,Direct match / navigable
+full arch,3,All-on-6 Dental Implants,Implantology,/dental-implants/all-on-6-dental-implants/,"Related to ""full arch bridge"" (Score: 70)",PASS,Direct match / navigable
+all on 6,1,All-on-6 Dental Implants,Implantology,/dental-implants/all-on-6-dental-implants/,"Matches ""all-on-6"" (Score: 90)",PASS,Direct match / navigable
+all on 8,1,All-on-8 Dental Implants,Implantology,/dental-implants/all-on-8-dental-implants/,"Matches ""all-on-8"" (Score: 90)",PASS,Direct match / navigable
+zygomatic implants,2,Zygomatic Dental Implants,Specialist,/dental-implants/zygomatic-dental-implants/,"Matches ""zygomatic implants"" (Score: 90)",PASS,Direct match / navigable
+bone graft,2,Bone Grafting & Sinus Augmentation,Surgery,/dental-implants/bone-grafting/,"Matches ""bone graft"" (Score: 90)",PASS,Direct match / navigable
+sinus lift,1,Bone Grafting & Sinus Augmentation,Surgery,/dental-implants/bone-grafting/,"Matches ""sinus lift"" (Score: 90)",PASS,Direct match / navigable
+orthodontics,3,Orthodontics Discipline Hub,Orthodontics,/orthodontics/,"Matches ""orthodontics"" (Score: 90)",PASS,Direct match / navigable
+facial aesthetics,1,Facial Aesthetics & Skin Services,Aesthetics,/facial-aesthetics/,"Matches ""facial aesthetics"" (Score: 90)",PASS,Direct match / navigable
+hair removal,1,Facial Aesthetics & Skin Services,Aesthetics,/facial-aesthetics/,"Related to ""laser hair removal"" (Score: 50)",PASS,Direct match / navigable
+microneedling,1,Facial Aesthetics & Skin Services,Aesthetics,/facial-aesthetics/,"Matches ""microneedling"" (Score: 90)",PASS,Direct match / navigable
+debond,1,Tooth Debonding & Bracket Removal,Orthodontics,/orthodontics/braces/#debonding,"Related to ""debonding teeth"" (Score: 70)",PASS,Direct match / navigable
+[EMPTY],0,N/A,N/A,N/A,Dropdown closed / input cleared,PASS,Dropdown closed / input cleared
+xylophone,0,Empty State (Category Shortcuts),N/A,N/A,Helpful category shortcut pills rendered,PASS,Helpful category shortcut pills rendered

@@ -306,9 +306,16 @@ document.addEventListener('DOMContentLoaded', () => {
       selectedIndex = -1;
 
       if (matched.length === 0) {
+        const safeQuery = query.replace(/[&<>"']/g, (m) => ({
+          '&': '&amp;',
+          '<': '&lt;',
+          '>': '&gt;',
+          '"': '&quot;',
+          "'": '&#39;'
+        }[m]));
         dropdown.innerHTML = `
           <div class="service-search-empty">
-            <div class="service-search-empty-text">No direct treatment match for "${query}".</div>
+            <div class="service-search-empty-text">No direct treatment match for "${safeQuery}".</div>
             <p style="margin: 0 0 8px 0; font-size: 11px;">Browse our core clinical categories or contact our team for assistance:</p>
             <div class="service-search-tags">
               <a href="/orthodontics/braces/" class="service-search-tag">Braces & Debonding</a>
