@@ -1,0 +1,5 @@
+Component,Location,Purpose,Variants,Responsive Behavior,Accessibility,Content Dependencies,Asset Dependencies,Status
+Hero Split,Global,Page Introduction,"Image Left, Image Right",Stacks vertically,"H1, Alt text","Headline, Subhead, CTA",Hero Image,COMPLETE
+Comparison Matrix,Hubs,Clinical Differences,"3-col, 4-col",Stacked cards,Scope row/col,Clinical Data,None,COMPLETE
+Reviewer Block,Treatment Pages,Credibility,"Doctor, Specialist",Flex wrap,Aria-label,Doctor Name/Role,Portrait Image,COMPLETE
+Before/After Slider,Cosmetic/Cases,Visual Proof,Default,Scales proportionally,Keyboard drag,None,2x Images,COMPLETE

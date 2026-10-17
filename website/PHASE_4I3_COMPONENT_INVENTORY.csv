@@ -1,0 +1,10 @@
+Component,Actual File / Location,Purpose,Variants,Used By,Reusable,Responsive Behavior,Accessibility,Content Dependencies,Asset Dependencies,Status
+Global Header,components.css,Navigation,"Desktop, Mobile",All,YES,Hamburger < 1024px,Aria-expanded,"Links, Phone",Logo,IMPLEMENTED
+Global Footer,components.css,Footer Nav,Standard,All,YES,Stack columns,Semantic footer,"Links, Contact",Logo,IMPLEMENTED
+Hero Split,components.css,Page Intro,Left/Right,"Core, Hubs",YES,Stack vertical,"H1, Alt text","Copy, CTA",Hero Image,IMPLEMENTED
+Comparison Matrix,components.css,Clinical Differences,3/4 col,All-on-X,YES,Stacked cards,Scope row/col,Clinical Data,None,IMPLEMENTED
+Reviewer Block,components.css,Trust/Credibility,Doctor,Surgical,YES,Flex wrap,Aria-label,Doctor Credentials,Portrait,IMPLEMENTED
+Journey Timeline,components.css,Process,Vertical,"International, Braces",YES,Stack,Semantics,Process Steps,Icons,IMPLEMENTED
+Before/After Slider,components.css,Visual Proof,Default,Cosmetic,YES,Scale proportional,Keyboard drag,None,2x Images,IMPLEMENTED
+Quick Facts,components.css,At-a-glance info,Icons+Text,Hubs,YES,Grid -> Stack,Aria-hidden icons,"Pricing, Duration",None,IMPLEMENTED
+Contact Form,components.css,Conversion,Standard,Contact,YES,100% width inputs,"Form labels, focus",Fields,None,IMPLEMENTED

@@ -1,0 +1,11 @@
+URL,Page Family,Template,Unique Sections,Reusable Sections,Content Dependencies,Asset Dependencies,Clinical Dependencies,Client Dependencies,Status
+/,Core,Homepage,Trust Strip,"Hero, Quick Facts",Patient Stats,Clinic Hero,NO,YES,COMPLETE
+/services/,Services,Service Hub,Service Grid,Hero,Service List,Service Icons,NO,YES,COMPLETE
+/dental-implants/,Implants,Treatment Hub,Overview,"Hero, Comparison",Implant Types,Generic Implant Img,YES,NO,COMPLETE
+/dental-implants/all-on-4-dental-implants/,Implants,Surgical Treatment,AON4 Specifics,"Hero, Comparison, Reviewer",AON4 Mechanics,AON4 Diagram,YES,NO,COMPLETE
+/orthodontics/braces/,Orthodontics,Orthodontic Treatment,Braces specific,"Hero, Timeline",Treatment length,Braces case,YES,NO,COMPLETE
+/cosmetic-dentistry/teeth-whitening/,Cosmetic,Cosmetic Treatment,Shade Guide,"Hero, B/A Slider",Whitening process,B/A Photos,YES,NO,COMPLETE
+/international-patients/,Supporting,International,Travel Logistics,"Hero, Timeline",Visa/Hotel details,Airport Photo,NO,YES,COMPLETE
+/patient-cases/,Supporting,Patient Case,Case Grid,"Hero, B/A Slider",Case details,Consented Photos,YES,YES,COMPLETE
+/about/,Supporting,About,Clinic History,"Hero, Reviewer Block","Founding year, awards","Clinic Interior, Doctors",NO,YES,COMPLETE
+/contact/,Supporting,Contact,Map Embed,"Hero, Form","Phone, Address, Hours",Map Slot,NO,YES,COMPLETE

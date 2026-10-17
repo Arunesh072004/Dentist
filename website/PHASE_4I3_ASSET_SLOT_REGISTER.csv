@@ -1,0 +1,5 @@
+URL,Page Family,Section,Asset Type,Purpose,Aspect Ratio,Current Asset,Required Asset,Approval Required,Consent Required,Replaceable Without Layout Change,Status
+/,Core,Hero,Photo,Establish trust,16:9,[ASSET REQUIRED],High-res clinic interior,YES,NO,YES,WAITING
+/dental-implants/all-on-4-dental-implants/,Implants,Diagram,Illustration,Surgical anatomy,1:1,[ASSET REQUIRED],Clinically approved diagram,YES,NO,YES,WAITING
+/patient-cases/,Supporting,Gallery,Photo,Clinical Evidence,4:3,[ASSET REQUIRED],Consented B/A cases,YES,YES,YES,WAITING
+/about/,Supporting,Team,Portrait,Establish authority,1:1 or 3:4,[ASSET REQUIRED],Professional doctor headshots,YES,NO,YES,WAITING

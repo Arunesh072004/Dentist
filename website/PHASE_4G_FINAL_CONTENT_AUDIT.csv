@@ -1,0 +1,7 @@
+URL,Page Family,Section,Content Status,Source,Source Reference,Clinical Review Required,Client Verification Required,Asset Required,Historical Data Required,Placeholder Present,Recommended Action,Notes
+/,Homepage,Hero,VERIFIED,Approved UI,None,NO,NO,YES,NO,NO,Awaiting hero image asset,
+/dental-implants/,Hub,Comparison Matrix,CLINICAL REVIEW REQUIRED,N/A,N/A,YES,NO,NO,NO,YES,Awaiting doctor sign-off,
+/dental-implants/all-on-4-dental-implants/,All-on-X,Process,CLINICAL REVIEW REQUIRED,Legacy Domain,all-on-4-dentalimplantsindia.com,YES,NO,NO,NO,YES,Verify process steps,
+/dental-implants/zygomatic-dental-implants/,Zygomatic,Indications,HISTORICAL DATA REQUIRED,Offline Domain,zygomaticimplantsindia.com,YES,NO,NO,YES,YES,Recover data and review,
+/international-patients.html,Logistics,Travel,CLIENT VERIFICATION REQUIRED,N/A,N/A,NO,YES,NO,NO,YES,Verify visa/hotel packages,
+/patient-cases/,Patient Cases,Gallery,ASSET REQUIRED,N/A,N/A,YES,YES,YES,NO,YES,Obtain authentic cases,

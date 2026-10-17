@@ -1,0 +1,5 @@
+Component,Actual File / Location,Purpose,Variants,Used By,Responsive Behavior,Accessibility,Content Dependencies,Asset Dependencies,Status
+Hero Split,components.css,Intro,Left/Right,"Core, Hubs",Stack,Alt tags,Copy,Hero Image,IMPLEMENTED
+Comparison Matrix,components.css,Compare,3/4 col,All-on-X,Cards on mobile,Scope,Clinical Data,None,IMPLEMENTED
+Reviewer Block,components.css,Trust,Doctor,Surgical,Wrap,Aria,Credentials,Portrait,IMPLEMENTED
+Journey Timeline,components.css,Process,Vertical,"International, Braces",Stack,Semantics,Process Steps,Icons,IMPLEMENTED

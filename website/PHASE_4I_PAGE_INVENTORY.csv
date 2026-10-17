@@ -1,0 +1,7 @@
+URL,Page Family,Template,Status,Desktop Complete,Tablet Complete,Mobile Complete,Content Placeholder,Asset Placeholder,Clinical Review,Client Verification,Notes
+/,Core,Homepage,COMPLETE,YES,YES,YES,YES,YES,NO,YES,Hero and Trust sections implemented
+/dental-implants/,Implants Hub,Hub,COMPLETE,YES,YES,YES,YES,YES,YES,NO,Comparison matrix active
+/dental-implants/all-on-4-dental-implants/,All-on-X,Treatment Detail,COMPLETE,YES,YES,YES,YES,YES,YES,YES,Clinical diagrams placeholder
+/orthodontics/braces/,Orthodontics,Treatment Detail,COMPLETE,YES,YES,YES,YES,YES,YES,NO,Timeline component used
+/cosmetic-dentistry/teeth-whitening/,Cosmetic,Treatment Detail,COMPLETE,YES,YES,YES,YES,YES,NO,YES,Before/After slider placeholder
+/international-patients.html,Logistics,Info,COMPLETE,YES,YES,YES,YES,YES,NO,YES,Journey timeline implemented

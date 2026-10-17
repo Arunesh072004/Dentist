@@ -1,0 +1,4 @@
+URL,Placeholder Type,Text,Classification,Action Required
+/,Governance,[CLIENT VERIFICATION REQUIRED],Controlled,Wait for client copy
+/dental-implants/all-on-4-dental-implants/,Governance,[CLINICAL REVIEW REQUIRED],Controlled,Wait for doctor copy
+/patient-cases/,Governance,[ASSET REQUIRED],Controlled,Wait for consented imagery

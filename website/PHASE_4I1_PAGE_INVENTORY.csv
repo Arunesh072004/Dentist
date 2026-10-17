@@ -1,0 +1,19 @@
+URL,Page Family,Template,Status,Desktop Complete,Tablet Complete,Mobile Complete,Content Placeholder,Asset Placeholder,Clinical Review,Client Verification,Notes
+/,Core,Homepage,EXISTS + PLACEHOLDER,YES,YES,YES,YES,YES,YES,YES,UI built
+/services/,Services,Service Hub,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/dental-implants/,Implants,Treatment Hub,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/dental-implants/full-mouth-dental-implants/,Implants,Surgical Treatment,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/dental-implants/all-on-4-dental-implants/,Implants,Surgical Treatment,EXISTS + PLACEHOLDER,YES,YES,YES,YES,YES,YES,YES,UI built
+/dental-implants/all-on-6-dental-implants/,Implants,Surgical Treatment,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/dental-implants/all-on-8-dental-implants/,Implants,Surgical Treatment,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/dental-implants/zygomatic-dental-implants/,Implants,Surgical Treatment,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/dental-implants/bone-grafting/,Implants,Procedure,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/orthodontics/,Orthodontics,Treatment Hub,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/orthodontics/braces/,Orthodontics,Orthodontic Treatment,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/cosmetic-dentistry/,Cosmetic,Treatment Hub,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/cosmetic-dentistry/teeth-whitening/,Cosmetic,Cosmetic Treatment,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/cosmetic-dentistry/zirconia-crowns/,Cosmetic,Cosmetic Treatment,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/international-patients/,Supporting,International Patients,EXISTS + PLACEHOLDER,YES,YES,YES,YES,YES,YES,YES,UI built
+/patient-cases/,Supporting,Patient Case,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/about/,Supporting,About,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build
+/contact/,Supporting,Contact,MISSING,NO,NO,NO,YES,YES,YES,YES,Pending full build

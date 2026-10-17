@@ -1,0 +1,2 @@
+Component,Actual File / Location,Purpose,Variants,Used By,Responsive Behavior,Accessibility,Content Dependencies,Asset Dependencies,Status
+Hero Split,components.css,Intro,Left/Right,Core,Stack,Alt tags,Copy,Hero Image,IMPLEMENTED

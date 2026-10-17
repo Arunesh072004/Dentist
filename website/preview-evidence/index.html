@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delhi Dental Center — Preview Evidence & Design System QA</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card-bg: #181b21;
+      --border: #292d36;
+      --text: #f0f2f5;
+      --text-muted: #9ba1ad;
+      --accent: #2563eb;
+      --badge-bg: #1e293b;
+      --badge-text: #93c5fd;
+    }
+    body {
+      margin: 0;
+      padding: 2.5rem 1.5rem;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+    p {
+      color: var(--text-muted);
+      margin-top: 0;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-header {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .card-subtitle {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .card-body {
+      padding: 1rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #090a0d;
+    }
+    .card-body img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+    .card-footer {
+      padding: 0.75rem 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      background: var(--card-bg);
+    }
+    .btn-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: var(--badge-text);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    .btn-link:hover {
+      text-decoration: underline;
+    }
+    .audit-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2rem 0;
+      font-size: 0.9rem;
+    }
+    .audit-table th, .audit-table td {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      text-align: left;
+    }
+    .audit-table th {
+      background: var(--card-bg);
+      color: var(--text);
+    }
+    .audit-table td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .status-tag {
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .status-verified {
+      background: rgba(34, 197, 94, 0.15);
+      color: #4ade80;
+    }
+    .status-neutralized {
+      background: rgba(234, 179, 8, 0.15);
+      color: #facc15;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Delhi Dental Center · Phase 4M Verified Artifacts</div>
+    <h1>Site-Wide Design System Rollout & QA Evidence</h1>
+    <p>Comprehensive responsive evidence across Desktop (1440px), Tablet (768px), and Mobile (390px) viewports from the local web server (<code>http://localhost:8005/</code>).</p>
+
+    <!-- SECTION: PHASE 4M INTERIOR PAGES -->
+    <h2>Phase 4M: Rollout Across Page Families</h2>
+    <div class="grid">
+      <!-- Services Desktop -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Treatments Hub</div>
+            <div class="card-subtitle">Desktop 1440 x 900 · /services/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/services_desktop_1440.png" target="_blank">
+            <img src="/preview-evidence/services_desktop_1440.png" alt="Services Hub Desktop Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Editorial Playfair Display hero, structured discovery cards with pills and discipline tags.<br>
+          <a class="btn-link" href="/preview-evidence/services_desktop_1440.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Services Mobile -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Treatments Hub (Mobile)</div>
+            <div class="card-subtitle">Mobile 390 x 844 · /services/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/services_mobile_390.png" target="_blank">
+            <img src="/preview-evidence/services_mobile_390.png" alt="Services Hub Mobile Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Zero horizontal overflow (390px viewport), responsive vertical stacking.<br>
+          <a class="btn-link" href="/preview-evidence/services_mobile_390.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Dental Implants Hub Desktop -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Dental Implants Hub</div>
+            <div class="card-subtitle">Desktop 1440 x 900 · /dental-implants/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/implants_desktop_1440.png" target="_blank">
+            <img src="/preview-evidence/implants_desktop_1440.png" alt="Dental Implants Hub Desktop Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Surgical protocol grid, All-on-X Comparison Matrix table, and Dermato-style CTA card.<br>
+          <a class="btn-link" href="/preview-evidence/implants_desktop_1440.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Dental Implants Tablet -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Dental Implants (Tablet)</div>
+            <div class="card-subtitle">Tablet 768 x 1024 · /dental-implants/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/implants_tablet_768.png" target="_blank">
+            <img src="/preview-evidence/implants_tablet_768.png" alt="Dental Implants Hub Tablet Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Responsive 2-column grid adaptation, smooth tablet header with hamburger navigation.<br>
+          <a class="btn-link" href="/preview-evidence/implants_tablet_768.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- All-on-4 Protocol Desktop -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">All-on-4 Protocol Page</div>
+            <div class="card-subtitle">Desktop 1440 x 900 · /dental-implants/all-on-4-dental-implants/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/allon4_desktop_1440.png" target="_blank">
+            <img src="/preview-evidence/allon4_desktop_1440.png" alt="All-on-4 Protocol Desktop Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Quick facts bar, intentional clinical diagram frame, accordions, and sticky consultation card.<br>
+          <a class="btn-link" href="/preview-evidence/allon4_desktop_1440.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- All-on-4 Protocol Mobile -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">All-on-4 Protocol (Mobile)</div>
+            <div class="card-subtitle">Mobile 390 x 844 · /dental-implants/all-on-4-dental-implants/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/allon4_mobile_390.png" target="_blank">
+            <img src="/preview-evidence/allon4_mobile_390.png" alt="All-on-4 Protocol Mobile Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Legible typography, full-width touch cards, and stacked sidebar.<br>
+          <a class="btn-link" href="/preview-evidence/allon4_mobile_390.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- International Patients Desktop -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">International Patients</div>
+            <div class="card-subtitle">Desktop 1440 x 900 · /international-patients/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/international_desktop_1440.png" target="_blank">
+            <img src="/preview-evidence/international_desktop_1440.png" alt="International Patients Desktop Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          5-stage patient journey timeline, practical travel orientation, and remote review consultation banner.<br>
+          <a class="btn-link" href="/preview-evidence/international_desktop_1440.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Orthodontics Braces Desktop -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Orthodontics & Braces</div>
+            <div class="card-subtitle">Desktop 1440 x 900 · /orthodontics/braces/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/braces_desktop_1440.png" target="_blank">
+            <img src="/preview-evidence/braces_desktop_1440.png" alt="Orthodontics Braces Desktop Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Accurate non-surgical orthodontics quick facts, biomechanical indications, and appointment form.<br>
+          <a class="btn-link" href="/preview-evidence/braces_desktop_1440.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Contact Page Desktop -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Contact & Scheduling</div>
+            <div class="card-subtitle">Desktop 1440 x 900 · /contact/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/contact_desktop_1440.png" target="_blank">
+            <img src="/preview-evidence/contact_desktop_1440.png" alt="Contact Page Desktop Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Clinic coordinates, structured consultation form, and intentional wayfinding map placeholder.<br>
+          <a class="btn-link" href="/preview-evidence/contact_desktop_1440.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Contact Page Tablet -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Contact & Scheduling (Tablet)</div>
+            <div class="card-subtitle">Tablet 768 x 1024 · /contact/</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/contact_tablet_768.png" target="_blank">
+            <img src="/preview-evidence/contact_tablet_768.png" alt="Contact Page Tablet Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Reflowed two-column layout maintaining readable line lengths.<br>
+          <a class="btn-link" href="/preview-evidence/contact_tablet_768.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Interaction -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Mobile Menu Drawer (Open)</div>
+            <div class="card-subtitle">Mobile 390 x 844 · All Pages</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/mobile_menu_open_390.png" target="_blank">
+            <img src="/preview-evidence/mobile_menu_open_390.png" alt="Mobile Menu Open Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Clean slide-down navigation drawer with active state indicators and pill appointment action.<br>
+          <a class="btn-link" href="/preview-evidence/mobile_menu_open_390.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Mobile Home Verification -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Approved Homepage (Frozen Baseline)</div>
+            <div class="card-subtitle">Mobile 390 x 844 · /</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/home_mobile_390.png" target="_blank">
+            <img src="/preview-evidence/home_mobile_390.png" alt="Homepage Mobile Baseline Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Pass 2 editorial hero, restrained pill badges, capability strip, and zero overflow.<br>
+          <a class="btn-link" href="/preview-evidence/home_mobile_390.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION: PREVIOUS BASELINE HOMEPAGE EVIDENCE -->
+    <h2>Baseline: Approved Homepage Pass 2 Evidence</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Homepage Pass 2 (Desktop)</div>
+            <div class="card-subtitle">1440 x 900 Full Page</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/pass2_desktop_1440.png" target="_blank">
+            <img src="/preview-evidence/pass2_desktop_1440.png" alt="Desktop 1440px Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Frozen Pass 2 visual reference direction.<br>
+          <a class="btn-link" href="/preview-evidence/pass2_desktop_1440.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Homepage Pass 2 (Tablet)</div>
+            <div class="card-subtitle">768 x 1024 Full Page</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/pass2_tablet_768.png" target="_blank">
+            <img src="/preview-evidence/pass2_tablet_768.png" alt="Tablet 768px Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Tablet responsive reflow.<br>
+          <a class="btn-link" href="/preview-evidence/pass2_tablet_768.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Homepage Pass 2 (Mobile)</div>
+            <div class="card-subtitle">390 x 844 Full Page</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a href="/preview-evidence/pass2_mobile_390.png" target="_blank">
+            <img src="/preview-evidence/pass2_mobile_390.png" alt="Mobile 390px Screenshot">
+          </a>
+        </div>
+        <div class="card-footer">
+          Mobile viewport verification.<br>
+          <a class="btn-link" href="/preview-evidence/pass2_mobile_390.png" target="_blank">Open Full Resolution &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

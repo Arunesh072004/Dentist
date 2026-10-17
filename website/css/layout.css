@@ -1,0 +1,91 @@
+/* LAYOUT SYSTEM */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding-mobile);
+  padding-right: var(--container-padding-mobile);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: var(--container-padding-desktop);
+    padding-right: var(--container-padding-desktop);
+  }
+}
+
+/* Grids */
+.grid {
+  display: grid;
+  gap: var(--spacing-6);
+}
+
+.grid-2 { grid-template-columns: 1fr; }
+.grid-3 { grid-template-columns: 1fr; }
+.grid-4 { grid-template-columns: 1fr; }
+
+@media (min-width: 768px) {
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(2, 1fr); gap: var(--spacing-8); }
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid-4 { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* Sections */
+.section {
+  padding-top: var(--spacing-16);
+  padding-bottom: var(--spacing-16);
+}
+
+.section-lg {
+  padding-top: var(--spacing-24);
+  padding-bottom: var(--spacing-24);
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: var(--spacing-24);
+    padding-bottom: var(--spacing-24);
+  }
+  .section-lg {
+    padding-top: var(--spacing-32);
+    padding-bottom: var(--spacing-32);
+  }
+}
+
+.bg-secondary { background-color: var(--color-bg-secondary); }
+.bg-primary { background-color: var(--color-bg-primary); }
+
+/* Flex Utilities */
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.justify-center { justify-content: center; }
+.gap-2 { gap: var(--spacing-2); }
+.gap-4 { gap: var(--spacing-4); }
+.gap-6 { gap: var(--spacing-6); }
+.gap-8 { gap: var(--spacing-8); }

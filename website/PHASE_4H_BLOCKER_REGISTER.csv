@@ -1,0 +1,7 @@
+ID,Category,Issue,Affected URL,Affected Section,Why It Is Blocked,Required Evidence,Required Owner,Priority,Current Status,Next Action,Unblocks Phase
+BLK-01,PHASE_3_DATA,Final Redirect Map,All URLs,SEO Infrastructure,Missing historical performance data,GSC/GA4/Backlink exports,SEO Team,CRITICAL,BLOCKED,Supply Data,Phase 5
+BLK-02,CLINICAL,All-on-X Differentiators,All-on-X Pages,Comparison Matrix / Indications,Need exact bone density and mechanical indications,Doctor Sign-off,Clinical Lead,HIGH,BLOCKED,Clinical Review,Launch
+BLK-03,CLINICAL,Zygomatic Candidacy,/zygomatic-dental-implants/,Indications,Legacy data missing; cannot invent medical claims,Doctor Sign-off,Clinical Lead,HIGH,BLOCKED,Clinical Review,Launch
+BLK-04,CLIENT,Pricing & Logistics,Multiple,Quick Facts / International Journey,Uncertainty regarding active pricing and hotel/visa services,Client Confirmation,Clinic Management,HIGH,BLOCKED,Client Review,Launch
+BLK-05,ASSET,Authentic Evidence,/patient-cases/,Gallery / Before & After,No authentic cases provided,Consented Images,Clinic Management,HIGH,BLOCKED,Supply Assets,Launch
+BLK-06,ASSET,Visual Design Finish,All Pages,Hero / Diagrams,Placeholder imagery degrades premium UI,High-Res Photography,Clinic Management,MEDIUM,BLOCKED,Supply Assets,Launch

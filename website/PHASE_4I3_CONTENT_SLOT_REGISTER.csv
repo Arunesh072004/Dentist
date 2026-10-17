@@ -1,0 +1,7 @@
+URL,Page Family,Section,Content Type,Current State,Source,Status,Clinical Review Required,Client Verification Required,Historical Data Required,Replaceable Without Layout Change,Notes
+/dental-implants/all-on-4-dental-implants/,Implants,Comparison Matrix,Clinical Stats,[CLINICAL REVIEW REQUIRED],Doctor,WAITING,YES,NO,NO,YES,
+/dental-implants/zygomatic-dental-implants/,Implants,Indications,Candidacy,[CLINICAL REVIEW REQUIRED],Doctor,WAITING,YES,NO,YES,YES,Legacy data lost
+/,Core,Trust Strip,Statistics,[CLIENT VERIFICATION REQUIRED],Client,WAITING,NO,YES,NO,YES,
+/international-patients/,Supporting,Logistics,Travel Data,[CLIENT VERIFICATION REQUIRED],Client,WAITING,NO,YES,NO,YES,
+/about/,Supporting,Doctors,Credentials,[CLIENT VERIFICATION REQUIRED],Client,WAITING,NO,YES,NO,YES,
+/contact/,Supporting,Contact Info,Business Data,[CLIENT VERIFICATION REQUIRED],Client,WAITING,NO,YES,NO,YES,

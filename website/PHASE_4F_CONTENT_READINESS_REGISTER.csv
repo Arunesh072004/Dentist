@@ -1,0 +1,8 @@
+URL,Page Family,Section,Current Content,Source,Source URL/Reference,Status,Clinical Review Required,Client Verification Required,Asset Required,Historical Data Required,Conflict,Recommended Action,Notes
+/,Homepage,Hero,Advanced clinical dentistry in New Delhi,Approved UI,delhidentalcenter.com,READY TO USE,NO,NO,YES,NO,NO,Keep,Needs background asset
+/,Homepage,Trust Strip,"15,000+ patients",Legacy Domain,delhidentalcenter.com,NEEDS CLIENT VERIFICATION,NO,YES,NO,NO,NO,Verify exact numbers,
+/dental-implants/all-on-4-dental-implants/,All-on-X,Comparison Matrix,[BLANK],None,N/A,NEEDS CLINICAL REVIEW,YES,NO,NO,NO,NO,Doctor must populate fields,No assumptions made
+/dental-implants/zygomatic-dental-implants/,Zygomatic,Indications,[BLANK],Offline Domain,zygomaticimplantsindia.com,NEEDS HISTORICAL DATA,YES,NO,NO,YES,NO,"Recover data, then clinical review",
+/international-patients.html,Logistics,Travel Planning,Assistance with Visa/Hotel,Legacy Domain,all-on-4-dentalimplantsindia.com,NEEDS CLIENT VERIFICATION,NO,YES,NO,NO,NO,Verify exact logistics offered,
+/patient-cases/,Patient Cases,Gallery,Authentic Patient Case Required,None,N/A,NEEDS AUTHENTIC ASSET,YES,YES,YES,NO,NO,Source authentic cases only,No stock allowed
+/about/,About,Doctor Credentials,Verified Qualifications,Legacy Domain,delhidentalcenter.com,NEEDS CLIENT VERIFICATION,NO,YES,YES,NO,NO,Verify exact awards/affiliations,Needs authentic portrait

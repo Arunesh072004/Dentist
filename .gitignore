@@ -1,0 +1,60 @@
+# Node.js / Build Outputs
+node_modules/
+.next/
+dist/
+build/
+.vercel/
+coverage/
+
+# Environment and Secrets
+.env
+.env.*
+.env.local
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Confidential Source PDFs & Working Documents
+PLAN_FINAL.pdf
+From_start_till_Phase_4F.pdf
+extracted_PLAN_FINAL.txt
+extracted_From_start_till_Phase_4F.txt
+filtered_plan_analysis.txt
+filtered_history_analysis.txt
+extracted_data.json
+claims_scan_output.txt
+
+# Audit and Crawl Artifacts
+allon4_summary.json
+allon6_summary.json
+allon8_summary.json
+implants_summary.json
+tooth_whitening_summary.json
+zygomatic_summary.json
+source-audit/
+OLD RESOURCES/
+archive/
+migration/
+
+# Internal Evidence Media & Temporary Captures
+evidence_phase4o/
+evidence_acceptance/
+website/evidence_phase4o/
+website/evidence_acceptance/
+website/preview-evidence/*.png
+
+# Local Python Scripts & Scrapers
+*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# System and OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

@@ -1,0 +1,5 @@
+URL,Section,Asset Type,Current Asset,Required Asset,Source,Approval Status,Consent Required,Clinical Review Required,Client Verification Required,Recommended Action
+/,Hero,Photography,None,Clinic Exterior/Interior,N/A,PENDING,NO,NO,YES,Provide high-res original imagery
+/dental-implants/all-on-4-dental-implants/,Diagram,Medical Diagram,None,All-on-4 Mechanics Diagram,N/A,PENDING,NO,YES,NO,Provide clinically approved diagram
+/about/,Doctors,Photography,None,Doctor Portraits,N/A,PENDING,NO,NO,YES,Provide professional headshots
+/patient-cases/,Gallery,Clinical Photo,None,Before/After Cases,N/A,PENDING,YES,YES,NO,Provide consented authentic cases
