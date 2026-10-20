@@ -79,6 +79,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Dynamic Footer Copyright Year
+  const copyrightYearElem = document.getElementById('current-year');
+  if (copyrightYearElem) {
+    copyrightYearElem.textContent = new Date().getFullYear();
+  }
+
   // =========================================================================
   // ON-SITE SERVICE SEARCH & DIRECT DISCOVERY ENGINE
   // =========================================================================
